@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FurnService } from '../Services/Furn/furn.service';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  furns:String[] = [];
+  constructor(private furnService:FurnService) {}
+
+  ngOnInit(): void {
+    this.furns = this.furnService.getAll();
+  }
 }
