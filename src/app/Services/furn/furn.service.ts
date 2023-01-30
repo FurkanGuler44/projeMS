@@ -1,5 +1,6 @@
 import { getLocaleCurrencyCode } from '@angular/common';
 import { Injectable } from '@angular/core';
+import { Furniture } from 'src/app/shared/models/Furniture';
 
 @Injectable({
   providedIn: 'root'
