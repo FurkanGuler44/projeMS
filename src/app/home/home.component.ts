@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FurnService } from '../Services/furn/furn.service';
+import { Furniture } from '../shared/models/Furniture';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { FurnService } from '../Services/furn/furn.service';
 })
 export class HomeComponent {
 
-  furns:String[] = [];
+  furns:Furniture[] = [];
   constructor(private furnService:FurnService) {}
 
   ngOnInit(): void {

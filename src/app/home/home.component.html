@@ -1,7 +1,39 @@
 <ul>
-    <li *ngFor="let furn of furns">
-        <a>
-            <img src="{{furn}}" alt="">
-        </a>
-    </li>
+  <li *ngFor="let furn of furns">
+    <a>
+      <img src="{{ furn.imageUrl }}" alt="" />
+      <div class="content">
+        <div class="name">
+          {{ furn.name }}
+        </div>
+        <span class="favorite {{ furn.favorite ? '' : 'not' }}">
+             ♡ 
+        </span>
+        <star-rating>
+          [value]="furn.stars" 
+          [totalstars]="5"
+          checkedcolor="red" 
+          uncheckedcolor="black"
+          size="22px" 
+          [readonly]="true">
+        </star-rating>
+        <div class="product-item-footer">
+            <div class="origins">
+                <span *ngFor="let origin of furn.origins">
+                    {{origin}}
+                </span>
+            </div>
+            <div class="delivery-time">
+                <span>🚚</span>
+                {{furn.deliveryTime}}
+            </div>
+        </div>
+        <div class="price">
+            <span> ₺
+                {{furn.price}}
+            </span>
+        </div>
+      </div>
+    </a>
+  </li>
 </ul>
