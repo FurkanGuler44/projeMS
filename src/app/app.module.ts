@@ -7,18 +7,22 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { RatingModule } from 'ng-starrating';
+import { SearchComponent } from './search/search.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RatingModule
+    RatingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

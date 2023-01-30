@@ -19,7 +19,7 @@ export class FurnService {
     favorite:false,
     origins:['Kayseri'],
     stars:4,
-    imageUrl: '/projeMS/src/assets/images/Furns/a1.jpg',
+    imageUrl: '../assets/images/Furns/a1.jpg',
     tags: ['Koltuk','Oturma Odası','L Koltuk','Köşe Takımı'],
   },
   {
@@ -30,7 +30,7 @@ export class FurnService {
     favorite:false,
     origins:['Kayseri'],
     stars:5,
-    imageUrl: '/projeMS/src/assets/images/Furns/a2.jpg',
+    imageUrl: '../assets/images/Furns/a2.jpg',
     tags: ['Koltuk','Oturma Odası','L Koltuk','Köşe Takımı'],
   },
   {
@@ -41,7 +41,7 @@ export class FurnService {
     favorite:false,
     origins:['İnegöl'],
     stars:3,
-    imageUrl: '/projeMS/src/assets/images/Furns/a3.jpg',
+    imageUrl: '../assets/images/Furns/a3.jpg',
     tags: ['Koltuk','Oturma Odası','L Koltuk','Köşe Takımı'],
   },
   {
@@ -52,7 +52,7 @@ export class FurnService {
     favorite:false,
     origins:['Gaziantep'],
     stars:5,
-    imageUrl: '/projeMS/src/assets/images/Furns/a5.jpg',
+    imageUrl: '../assets/images/Furns/a5.jpg',
     tags: ['Koltuk','Oturma Odası','L Koltuk','Köşe Takımı'],
   },
   {
@@ -63,7 +63,7 @@ export class FurnService {
     favorite:false,
     origins:['İnegöl'],
     stars:3,
-    imageUrl: '/projeMS/src/assets/images/Furns/a6.jpg',
+    imageUrl: '../assets/images/Furns/a6.jpg',
     tags: ['Koltuk','Oturma Odası','L Koltuk','Köşe Takımı'],
   },
   {
@@ -74,7 +74,7 @@ export class FurnService {
     favorite:false,
     origins:['İnegöl'],
     stars:2,
-    imageUrl: '/projeMS/src/assets/images/Furns/a7.jpg',
+    imageUrl: '../assets/images/Furns/a7.jpg',
     tags: ['Koltuk','Oturma Odası','L Koltuk','Köşe Takımı'],
   }
 
