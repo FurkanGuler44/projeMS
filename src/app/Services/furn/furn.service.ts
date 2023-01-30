@@ -9,6 +9,10 @@ export class FurnService {
 
   constructor() { }
 
+ getFurnitureById(id: number): Furniture {
+  return this.getAll().find(Furniture=>Furniture.id == id)!;
+  }
+
  getAll():Furniture[]{
  return [
   {

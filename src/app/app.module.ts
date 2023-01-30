@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { FurnPageComponent } from './furn-page/furn-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    FurnPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
 <app-search></app-search>
 <ul>
   <li *ngFor="let furn of furns">
-    <a>
+    <a routerLink="/furn/{{furn.id}}">
       <img src="{{ furn.imageUrl }}" alt="" />
       <div class="content">
         <div class="name">
