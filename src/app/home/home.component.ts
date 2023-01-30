@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FurnService } from '../Services/furn.service';
+import { FurnService } from '../Services/furn/furn.service';
 
 @Component({
   selector: 'app-home',
