@@ -6,7 +6,7 @@ header{
     display: flex;
     align-items: center;
     padding: 27px;
-    border-bottom: 3px solid #ff523b;
+    border-bottom: 3px solid aquamarine;
     border-radius: 10px;
     transition: background 0.5s;
 }
@@ -26,12 +26,12 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #555;
     
 }
 a:hover{
-    color: #ff523b;
+    color: aquamarine;
 }
 p{
     color: #555;
@@ -79,10 +79,6 @@ p{
 
 .header .row{
   margin-top: 70px;
-}
-.btn:hover{
-    background: #53c045;
-
 }
 .categories{
     margin: 70px 0;
