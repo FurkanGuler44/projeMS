@@ -1,4 +1,5 @@
 <app-search></app-search>
+<app-not-found [visible]="!furns || furns.length <= 0"></app-not-found>
 <ul>
   <li *ngFor="let furn of furns">
     <a routerLink="/furn/{{furn.id}}">
