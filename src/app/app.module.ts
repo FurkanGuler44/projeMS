@@ -10,6 +10,7 @@ import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { FurnPageComponent } from './furn-page/furn-page.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FurnPageComponent } from './furn-page/furn-page.component';
     FooterComponent,
     HomeComponent,
     SearchComponent,
-    FurnPageComponent
+    FurnPageComponent,
+    CartPageComponent
   ],
   imports: [
     BrowserModule,
